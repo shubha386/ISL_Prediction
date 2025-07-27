@@ -3,6 +3,7 @@ import numpy as np
 import cv2
 from tensorflow.keras.models import load_model
 import base64
+from flask_cors import CORS
 
 app = Flask(__name__)
 
